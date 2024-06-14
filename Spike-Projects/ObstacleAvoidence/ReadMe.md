@@ -8,8 +8,8 @@ If it doesn't detect anything within the range, it will keep going; otherwise, i
 START
 SET motor_speed TO half
 MOVE_FORWARD(motor_speed)
-LOOP forever
-    distance = READ_DISTANCE_SENSOR()
+LOOP forever 
+   distance = READ_DISTANCE_SENSOR()
     IF distance < 15 cm THEN
         STOP()
         ROTATE_RIGHT()
