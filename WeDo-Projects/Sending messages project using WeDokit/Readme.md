@@ -9,10 +9,10 @@ This process continues, alternating between left and right tilts, each time runn
 #Pseudocode:
 START    \
 WHILE true <br />
-    IF 'A' button is pressed THEN <br />
-        WAIT until tilt position changes (left or right) <br />
-        IF tilt is LEFT THEN \
-            RUN sound indicating Character 1 \
+        IF 'A' button is pressed THEN <br />
+            WAIT until tilt position changes (left or right) <br />
+            IF tilt is LEFT THEN \
+                RUN sound indicating Character 1 \
             WAIT until tilt returns to horizontal \
         ELSE IF tilt is RIGHT THEN \
             RUN sound indicating Character 2    \
