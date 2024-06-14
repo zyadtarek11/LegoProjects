@@ -1,7 +1,6 @@
 # **Sending Messages using WeDo Kit**
 Program Description \
 The program works as follows:    \
-
 When the 'A' button is pressed on the keyboard, the program will wait until the tilt position changes to the right or to the left. \
 If the tilt is to the left, the program will run a certain sound indicating a certain character and wait until the tilt returns to its horizontal state. \
 The program will then wait for the tilt to change its position either to the left or to the right. \
